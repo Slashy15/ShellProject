@@ -3,4 +3,8 @@ project(ShellProject C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(ShellProject main.c)
+add_executable(ShellProject
+        main.c
+        shell.c
+        utils.c
+)
